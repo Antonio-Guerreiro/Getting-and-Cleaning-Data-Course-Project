@@ -76,8 +76,7 @@ Columns were renamed to follow the recommandations provided in the file
 At this step: we remove parenthesis and lower all characters. 
 The names of the column are now rather self-explanatory.
 
-### Q5 part: From the data set in step 4, creates a second, independent tidy
-### data set with the average of each variable for each activity and each subject. 
+### Q5 part: From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
 The data was grouped by activity name and by subject using the dplyr
 "group_by" command. The average for each group is computed using
