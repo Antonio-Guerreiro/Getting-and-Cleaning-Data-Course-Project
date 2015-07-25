@@ -50,7 +50,7 @@ One table with 180 observations of 68 variables.
 
 This data set contains the means, **after grouping by activity and by subject**, 
 of selected features of the original raw data set features files:
-"mean" and "std"" variables only. 
+"mean" and "std" variables only. 
 
 From both the training and test parts of the raw data which have been merged.
 
@@ -75,19 +75,22 @@ List of the variables of the tidy data set
 "fbodyaccmag-mean"          "fbodyaccmag-std"           "fbodybodyaccjerkmag-mean"  "fbodybodyaccjerkmag-std"  
 "fbodybodygyromag-mean"     "fbodybodygyromag-std"      "fbodybodygyrojerkmag-mean" "fbodybodygyrojerkmag-std"
 
-Variables description
+Variable description
 ---------------------
 
-1. "activitynames": descriptive names of the activities in the data set.
+
+#### "activitynames": descriptive names of the activities in the data set
 
 6 Levels: LAYING, SITTING, STANDING, WALKING, WALKING DOWNSTAIRS, WALKING UPSTAIRS
 
-2. "subject" : the ids of the subjects who carried out the experiments 
+
+#### "subject": the ids of the subjects who carried out the experiments 
 (a group of 30 volunteers within an age bracket of 19-48 years).
 
 1 to 30.
 
-3. Features
+
+#### Features
 
 Recall: in the final data set, we additionally grouped by activity and subject
 and compute the mean for each group.
